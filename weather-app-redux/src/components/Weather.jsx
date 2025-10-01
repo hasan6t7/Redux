@@ -49,6 +49,7 @@ const Weather = () => {
                     weatherData.map((data, index) =>(
                         <WeatherCard key={index} 
                         city={data.name} 
+                        
                         temp={data.main.temp} 
                         description={data.weather[0].description}/>
                     ))
